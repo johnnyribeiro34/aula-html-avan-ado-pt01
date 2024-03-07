@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagem responsiva usando a tag picture</title>
+  </head>
+  <body>
+    <!-- <h1>tag picture com mobile first</h1>
+    <picture>
+      <source
+        media="(min-width: 1000px)"
+        srcset="https://placekitten.com/g/200/1200"
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="https://placekitten.com/g/200/750"
+      />
+
+      <source
+        media="(min-width: 465px)"
+        srcset="https://placekitten.com/g/200/350"
+      />
+
+      <img src="https://placekitten.com/g/200/300" alt="imagem de um gatinho" />
+    </picture> -->
+
+    <h2>tag picture com desktop first </h2>
+
+    <picture>
+        <source
+        media="(max-width: 375px)"
+        srcset="https://placekitten.com/g/200/250"
+      />
+        <source
+        media="(max-width: 425px)"
+        srcset="https://placekitten.com/g/200/350"
+      />
+        <source
+        media="(max-width: 768px)"
+        srcset="https://placekitten.com/g/200/500"
+      />
+
+        <img src="https://placekitten.com/g/200/2048" alt="imagem de um gatinho">
+    </picture>
+
+  </body>
+</html>
